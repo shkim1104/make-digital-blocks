@@ -4,13 +4,13 @@
 
 module tb_comb_logic;
 
-	wire	A;
-	wire	B;
-	wire	C;
-	wire	D;
+	reg		A;
+	reg		B;
+	reg		C;
+	reg		D;
                       
-	reg		Y1;
-	reg		Y2;
+	wire	Y1;
+	wire	Y2;
 
 
 comb_logic dut (
